@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Kevin Sullivan">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Pixel Text</title>
+		<!-- link rel="stylesheet" href="stylesheet.css" -->
+		<style>
+			*{
+				box-sizing: border-box;
+			}
+			h3{
+				border:solid blue 2px;
+				margin:0;
+			}
+			ul{
+				border:solid blue 2px;
+				margin:0;
+				padding:10px 0 10px 25px;
+			}
+			.canvas-container{
+				border:solid red 2px;
+				width:100%;
+				display: flex;
+				justify-content: center;
+			}
+			.canvas-1{
+				border: solid black 1px;
+				margin:auto;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Canvas Text Pixel Effects</h1>
+			<h3>Useful References</h3>
+			<h4 id="mouseStuff"></h4>
+			<h4 id="numpix"></h4>
+			<ul>
+				<li>
+					<a href="https://www.w3schools.com/tags/canvas_measuretext.asp" target="_blank">
+						w3Schools</a> for context.measureText("text").width
+				</li>
+				<li>
+					<a href="https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website" target="_blank">
+						Adding Fonts</a> to your website!
+				</li>
+			</ul>
+		</header>
+		<main>
+			<div class="canvas-container">
+				<canvas class="canvas-1" id="canvas01"></canvas>
+			</div>
+		</main>
+	</body>
+	<script src="canvas_script.js"></script>
+</html>
